@@ -9,7 +9,7 @@
 #ifndef __SYNTHESIS__
 bias8_t b8[3];
 #else
-bias8_t b8[3] = {-0.1250, 0.1250, -0.0625};
+bias8_t b8[3] = {0.1250, 0.1250, -0.1250};
 #endif
 
 #endif

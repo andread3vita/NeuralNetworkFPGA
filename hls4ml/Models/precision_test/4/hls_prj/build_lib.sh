@@ -8,8 +8,8 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 LDFLAGS=
 INCFLAGS="-Ifirmware/ap_types/"
-PROJECT=myproject
-LIB_STAMP=f7798C09
+PROJECT=NN_precision_4
+LIB_STAMP=de7BC1f3
 
 ${CC} ${CFLAGS} ${INCFLAGS} -c firmware/${PROJECT}.cpp -o ${PROJECT}.o
 ${CC} ${CFLAGS} ${INCFLAGS} -c ${PROJECT}_bridge.cpp -o ${PROJECT}_bridge.o

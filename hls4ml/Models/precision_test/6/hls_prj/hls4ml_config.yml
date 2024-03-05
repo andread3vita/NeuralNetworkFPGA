@@ -10,7 +10,7 @@ HLSConfig:
       Trace: false
     fc1_input:
       Precision:
-        result: fixed<16,8>
+        result: fixed<16,2>
       Trace: false
     fc1_linear:
       Precision:
@@ -46,7 +46,7 @@ HLSConfig:
       Trace: false
     softmax:
       Precision:
-        result: fixed<16,3>
+        result: fixed<16,2>
       Trace: false
       exp_table_t: ap_fixed<18,8>
       inv_table_t: ap_fixed<18,4>
@@ -58,10 +58,10 @@ HLSConfig:
     TraceOutput: false
 IOType: io_parallel
 InputData: null
-KerasModel: !keras_model './/Models/precision_test/6/hls_prj/keras_model.h5'
-OutputDir: .//Models/precision_test/6/hls_prj
+KerasModel: !keras_model './Models/precision_test/6/hls_prj/keras_model.h5'
+OutputDir: ./Models/precision_test/6/hls_prj
 OutputPredictions: null
 Part: xc7a35tcsg324
-ProjectName: myproject
-Stamp: 6d8cAD6F
+ProjectName: NN_precision_6
+Stamp: dA690749
 Version: 1.0.0

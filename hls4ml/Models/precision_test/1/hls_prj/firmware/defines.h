@@ -17,7 +17,7 @@
 #define N_LAYER_8 3
 
 // hls-fpga-machine-learning insert layer-precision
-typedef ap_fixed<16,8> input_t;
+typedef ap_fixed<16,2> input_t;
 typedef ap_fixed<16,6> model_default_t;
 typedef ap_fixed<16,6> layer2_t;
 typedef ap_fixed<3,1> weight2_t;
@@ -37,7 +37,7 @@ typedef ap_fixed<3,1> bias8_t;
 typedef ap_uint<1> layer8_index;
 typedef ap_fixed<18,8> softmax_exp_table_t;
 typedef ap_fixed<18,4> softmax_inv_table_t;
-typedef ap_fixed<16,3> result_t;
+typedef ap_fixed<16,2> result_t;
 typedef ap_fixed<18,8> softmax_table_t;
 
 #endif
