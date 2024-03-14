@@ -1,0 +1,51 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'NN_final'" level="0">
+<item name = "Date">Tue Mar  5 17:47:40 2024
+</item>
+<item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
+<item name = "Project">NN_final_prj</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">artix7</item>
+<item name = "Target device">xc7a35t-csg324-3</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">5.00 ns, 4.335 ns, 0.62 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">23, 23, 0.115 us, 0.115 us, 1, 1, function</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_fu_75">dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0, 3, 3, 15.000 ns, 15.000 ns, 1, 1, function</column>
+<column name="call_ret3_relu_ap_fixed_16_6_5_3_0_ap_ufixed_5_0_4_0_0_relu_config7_s_fu_93">relu_ap_fixed_16_6_5_3_0_ap_ufixed_5_0_4_0_0_relu_config7_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="call_ret1_relu_ap_fixed_16_6_5_3_0_ap_ufixed_5_0_4_0_0_relu_config4_s_fu_113">relu_ap_fixed_16_6_5_3_0_ap_ufixed_5_0_4_0_0_relu_config4_s, 0, 0, 0 ns, 0 ns, 1, 1, function</column>
+<column name="grp_dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config8_0_0_0_0_fu_131">dense_latency_ap_ufixed_ap_fixed_16_6_5_3_0_config8_0_0_0_0, 2, 2, 10.000 ns, 10.000 ns, 1, 1, function</column>
+<column name="grp_dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_fu_151">dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1, 1, 1, 5.000 ns, 5.000 ns, 1, 1, function</column>
+<column name="grp_softmax_stable_ap_fixed_ap_fixed_16_2_5_3_0_softmax_config10_s_fu_157">softmax_stable_ap_fixed_ap_fixed_16_2_5_3_0_softmax_config10_s, 10, 10, 50.000 ns, 50.000 ns, 1, 1, function</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

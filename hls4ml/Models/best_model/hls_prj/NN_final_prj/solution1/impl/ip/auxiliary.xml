@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="NN_final" xd:componentRef="NN_final" xd:initiationInterval="1" xd:clockPeriod="5.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="fc1_input[0]" xd:originalName="fc1_input0" xd:direction="in" xd:interfaceRef="fc1_input_V" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="16" xd:dataPack="true" xd:bitMapping="15:0" xd:arraySize="1"/>
+  <xd:arg xd:name="fc1_input[1]" xd:originalName="fc1_input1" xd:direction="in" xd:interfaceRef="fc1_input_V" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="16" xd:dataPack="true" xd:bitMapping="31:16" xd:arraySize="1"/>
+  <xd:arg xd:name="fc1_input[2]" xd:originalName="fc1_input2" xd:direction="in" xd:interfaceRef="fc1_input_V" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="16" xd:dataPack="true" xd:bitMapping="47:32" xd:arraySize="1"/>
+  <xd:arg xd:name="layer10_out[0]" xd:originalName="layer10_out0" xd:direction="out" xd:interfaceRef="layer10_out_0_V" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="16" xd:firstOut="23" xd:arraySize="1"/>
+  <xd:arg xd:name="layer10_out[1]" xd:originalName="layer10_out1" xd:direction="out" xd:interfaceRef="layer10_out_1_V" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="16" xd:firstOut="23" xd:arraySize="1"/>
+  <xd:arg xd:name="layer10_out[2]" xd:originalName="layer10_out2" xd:direction="out" xd:interfaceRef="layer10_out_2_V" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="16" xd:firstOut="23" xd:arraySize="1"/>
+  <xd:latencyEstimates xd:best-case="23" xd:worst-case="23" xd:average-case="23"/>
+  <xd:resourceEstimates xd:LUT="9900" xd:FF="4170" xd:BRAM="3" xd:DSP="4"/>
+</xd:acceleratorMap>
